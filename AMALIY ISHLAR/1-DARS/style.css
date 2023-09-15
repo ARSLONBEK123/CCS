@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-image: url(https://img.freepik.com/premium-photo/head-mystical-orient-red-dragons-with-flying-sparks_124507-31334.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 2600px;
+    height: 2000px;
+    position: relative;
+}
+
+.container .box {
+    background-color: white;
+    width: 400px;
+    height: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: red;
+    top: 50px;
+
+}
+
+
+.box:hover {
+    background-color: cyan;
+
+}
+
+.card1:hover {
+    bottom: 30px;
+    transition: 1.5s;
+    position: absolute;
+    color: red;
+   
+
+
+}
+
+.card {
+    position: absolute;
+    top: 200px;
+    left: 200px;
+    padding: 50px;
+    -webkit-text-stroke: 1px  yellow;
+}

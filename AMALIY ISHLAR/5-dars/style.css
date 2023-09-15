@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: rgba(240, 248, 255, 0.47);
+    width: 1200px;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.block {
+    width: 1200px;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(70px 70px 70px 70px);
+    grid-template-rows: repeat(150px 150px 150px);
+}
+
+.box1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+    background-color: cyan;
+}
