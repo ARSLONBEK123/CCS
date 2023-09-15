@@ -1,0 +1,402 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    position: relative;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+    padding: 20px 0px;
+
+
+}
+
+
+
+.home {
+    width: 150px;
+    height: 40px;
+
+}
+
+
+.container .logo {
+    display: flex;
+    color: black;
+
+}
+
+.navbar {
+    background-color: white;
+}
+
+ul {
+    display: flex;
+    margin-left: 280px;
+    align-items: center;
+}
+
+ul li {
+    padding-left: 50px;
+}
+
+ul li a {
+    display: inline-block;
+    margin-left: 20px;
+    color: red;
+}
+
+.fa-solid.fa-caret-up.fa-rotate-180 {
+    margin: 15px;
+}
+
+.fa-solid.fa-magnifying-glass.fa-2xl {
+    margin-left: 50px;
+}
+
+.big {
+    width: 100vh;
+}
+
+header {
+    background-image: url(img/slide11_3024x.png);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* ------------------------  navbar end */
+.p {
+    color: coral;
+
+}
+
+.p:hover {
+    color: blue;
+}
+
+h3 {
+    display: flex;
+    margin-left: 5px;
+    position: absolute;
+    top: 100px;
+    left: 150px;
+    font-size: 35px;
+}
+
+.h1 {
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    color: brown;
+    font-size: 40px;
+
+}
+
+.h1:hover {
+    color: aqua;
+}
+
+button {
+    background-color: black;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    color: white;
+    position: absolute;
+    top: 210px;
+    left: 150px;
+
+
+}
+
+button:hover {
+    background-color: chartreuse;
+    width: 150px;
+    height: 50px;
+    border-radius: 5px;
+    color: black;
+}
+
+.li {
+    text-align: center;
+}
+
+.car img {
+    width: 275px;
+}
+
+.h2 {
+    text-align: center;
+    margin: 10px;
+}
+
+.card {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0;
+}
+
+.car img {
+    width: 275px;
+    height: 300px;
+}
+
+.h4 {
+    background-color: coral;
+    width: 45px;
+    border-radius: 2px;
+}
+
+/* }---------------------header end */
+.section {
+    background-image: url(img/newsletter-bg.jpg);
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.box {
+    width: 90vh;
+    height: 60%;
+}
+
+.cover {
+    background-color: aliceblue;
+    width: 800px;
+    height: 40vh;
+    position: absolute;
+    top: 200px;
+    left: 250px;
+}
+
+.cover input {
+    width: 500px;
+    height: 50px;
+    position: absolute;
+    top: 160px;
+    left: 90px;
+    font-size: 20px;
+    padding-left: 20px;
+}
+
+.button {
+    width: 150px;
+    position: absolute;
+    top: 160px;
+    left: 600px;
+}
+
+.button:hover {
+    background-color: black;
+    color: white;
+}
+
+.big {
+    position: absolute;
+    top: 85px;
+    left: 200px;
+}
+
+.div {
+    position: absolute;
+    top: 130px;
+    left: 200px;
+}
+
+.class {
+    position: absolute;
+    top: 250px;
+    left: 250px;
+}
+
+.cards {
+    background-color: aliceblue;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+}
+
+.car {
+    position: relative;
+}
+
+.car .h4 {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 3;
+}
+
+
+.boxs img {
+    width: 100%;
+    height: 70vh;
+}
+
+.fa-solid.fa-plane.fa-2xl {
+    font-size: 70px;
+
+    margin: 0 auto;
+}
+
+.fa-regular.fa-credit-card.fa-2xl {
+    font-size: 70px;
+}
+
+.fa-solid.fa-share-from-square.fa-2xl {
+    font-size: 70px;
+}
+
+.shadow {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card1 {
+    width: 370px;
+    height: 100px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.card_active {
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+.car_03 {
+    margin-top: 50px;
+}
+
+.car_02 {
+    position: absolute;
+    background-color: aliceblue;
+    color: black;
+    margin-left: -40px;
+}
+
+.for {
+    display: flex;
+    justify-content: space-between;
+}
+
+.car_0 {
+    text-align: center;
+}
+
+.car_00 {
+    text-align: center;
+}
+
+h5 {
+    background-color: chocolate;
+    border-radius: 5px;
+    font-size: 15px;
+    width: 92px;
+    height: 22px;
+    text-align: center;
+}
+
+.container .for h4 {
+    margin-top: 15px;
+}
+
+
+
+
+.container .for p {
+    color: #333;
+    margin-top: 15px;
+}
+
+.container .for a {
+    background-color: whitesmoke;
+    border-radius: 4px;
+    padding: 10px;
+    color: black;
+    border: 1px solid black;
+
+}
+
+.container .for h6 {
+    margin-top: 10px;
+}
+
+/* -----------------------ajvfbjWSKJBGrvl */
+footer {
+    background-color: black;
+    width: 100%;
+    height: 47vh;
+}
+
+.container .blocks .box_01 i {
+
+   padding-top: 20px;
+   padding-left: 10px;
+    font-size: 30px;
+}
+.box_02{
+    display: flex;
+    margin-left: 50px;
+}
+.box_03 img{
+    margin-left: 550px;
+
+}
+.container .blocks .box_01{
+    padding-top: 70px;
+    padding-left: 30px;
+}
+.box_01 h4,h2{
+    color: aliceblue;
+    font-size: 15px;
+    margin-left: 170px;
+    margin-top: 3px; 
+   
+}
+
+.box_02 h2, p{
+    color: white;
+    
+}
+.text1 {
+    color: aliceblue;
+    font-size: 15px;
+   
+
+}
+
+.text2 {
+    color: aliceblue;
+    font-size: 15px;
+    
+
+}
+
+.text3 {
+    color: aliceblue;
+    font-size: 15px;
+   
+
+}
+
+.text4 {
+    color: aliceblue;
+    font-size: 15px;
+    
+}
+h6{
+    color: aliceblue;
+}
+
+

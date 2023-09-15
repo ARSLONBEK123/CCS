@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+}
+
+body{
+background-color: black;
+}
+
+
+.fa-brands.fa-instagram.fa-2xl{
+    font-size: 70px;
+    margin-top: 100px;
+    z-index: 1;
+    
+}
+.fa-brands.fa-tiktok.fa-2xl{
+    font-size: 70px;
+    margin-top: 100px;
+}
+.fa-brands.fa-tiktok.fa-2xl:hover{
+    left: 150px;
+    position: absolute;
+    transition: 0.5s;
+}
+.fa-brands.fa-whatsapp.fa-2xl{
+    font-size: 70px;
+    margin-top: 100px;
+}
+.fa-brands.fa-facebook.fa-2xl{
+    font-size: 70px;
+    margin-top: 100px;
+}
+.fa-brands.fa-twitter.fa-2xl{
+    font-size: 70px;
+    margin-top: 100px;
+}
+.container {
+    width: 1140px;
+    margin: 300px auto;
+    padding: 20px 0;
+    position: relative;
+
+}
+
+.box {
+    display: flex;
+}
+
+span {
+    width: 100px;
+    background-color: black;
+    color: white;
+    font-size: 50px;
+    padding: 20px;
+    color: cyan;
+    box-shadow: 0 0 30px cyan;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 20px;
+    -webkit-text-stroke: 1.5px red;
+    transition: 2.5s;
+    margin-left: 200px;
+  
+   
+
+
+}
+
+.car1 {
+    z-index: 1;
+}
+
+.box:hover .car2 {
+    left: 120px;
+    position: absolute;
+    transition: 0.5s;
+
+
+}
+
+.box:hover .car3 {
+    left: 240px;
+    position: absolute;
+    transition: 1s;
+    transition-delay: 1s;
+}
+
+.box:hover .car4 {
+    left: 360px;
+    position: absolute;
+    transition: 1.5s;
+    transition-delay: 1.5s;
+}
+
+.box:hover .car5 {
+    left: 480px;
+    position: absolute;
+    transition: 2s;
+    transition-delay: 2s;
+}
+
+.box:hover .car6 {
+    left: 600px;
+    position: absolute;
+    transition: 2.5s;
+    transition-delay: 2.5s;
+}
+
+.box:hover .car7 {
+    left: 60px;
+    position: absolute;
+    transition: 3s;
+    transition-delay: 3s;
+}

@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container  {
+    width: 1140px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 100px auto;
+
+
+}
+
+ img {
+    width: 350px;
+    height: 300px;
+    margin-left: 100px;
+    margin-top: 100px;
+
+}
+.div1{
+    filter: blur(3px);
+}
+.div2{
+    filter:brightness(2);
+}
+.div3{
+    filter:contrast(5);
+}
+.div4{
+    filter:drop-shadow(20px  30px  50px  black);
+}
+.div5{
+    filter:grayscale(5);
+}
+.div6{
+    filter: hue-rotate(90deg);
+}
+.div7{
+    filter: invert(1);
+}
+.div8{
+    filter:saturate(0.3) ;
+}
+.div9{
+    filter: sepia(0.7);
+}

@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+
+}
+
+.container {
+    width: 1140px;
+    margin: 300px auto;
+    padding: 20px 0;
+    position: relative;
+
+}
+
+.box {
+    display: flex;
+}
+
+span {
+    width: 70px;
+    background-color: black;
+    color: white;
+    font-size: 50px;
+    padding: 20px;
+    color: cyan;
+    box-shadow: 0 0 30px cyan;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 20px;
+    -webkit-text-stroke: 1.5px red;
+    transition: 2.5s;
+   
+
+
+}
+
+.car1 {
+    z-index: 1;
+}
+
+.box:hover .car2 {
+    left: 100px;
+    position: absolute;
+    transition: 0.5s;
+
+
+}
+
+.box:hover .car3 {
+    left: 200px;
+    position: absolute;
+    transition: 1s;
+    transition-delay: 1s;
+}
+
+.box:hover .car4 {
+    left: 300px;
+    position: absolute;
+    transition: 1.5s;
+    transition-delay: 1.5s;
+}
+
+.box:hover .car5 {
+    left: 400px;
+    position: absolute;
+    transition: 2s;
+    transition-delay: 2s;
+}
+
+.box:hover .car6 {
+    left: 500px;
+    position: absolute;
+    transition: 2.5s;
+    transition-delay: 2.5s;
+}
+
+.box:hover .car7 {
+    left: 600px;
+    position: absolute;
+    transition: 3s;
+    transition-delay: 3s;
+}

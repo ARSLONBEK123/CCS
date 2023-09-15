@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.card {
+    width: 700px;
+    height: 700px;
+    background-color: goldenrod;
+    border-radius: 50%;
+    position: relative;
+    margin: 30px auto;
+}
+
+.card:hover .car1 {
+    background-color: white;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: 120px;
+    left: 100px;
+}
+
+.card:hover .car2 {
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 120px;
+    right: 100px;
+}
+
+.card:hover .car4 {
+
+    height: 200px;
+    position: absolute;
+    bottom: 60px;
+    left: 270px;
+
+
+}
+
+.car1 {
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 120px;
+    left: 100px;
+    transition: 0.5s;
+
+}
+
+.car2 {
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 120px;
+    right: 100px;
+    transition: 0.5s;
+}
+
+.car3 {
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 100px;
+    left: 250px;
+    transition: 0.5s;
+
+}
+
+.car4 {
+    width: 200px;
+    height: 200px;
+    background-color: goldenrod;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 130px;
+    left: 250px;
+    transition: 0.5s;
+}

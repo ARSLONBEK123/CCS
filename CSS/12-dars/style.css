@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+    padding: 20px 0px;
+    position: relative;
+
+}
+
+header {
+    background-image: url(images/header-bg_01.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.container .logo {
+    display: flex;
+    color: white;
+}
+
+.ul {
+    display: flex;
+    margin-left: 280px;
+    align-items: center;
+}
+
+ul li a {
+    display: inline-block;
+    margin-left: 20px;
+    color: blue;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.home {
+    margin: 15px;
+    color: cyan;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.box7 {
+    position: absolute;
+    top: 500px;
+    left: 500px;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.box2 {
+    color: black;
+    position: absolute;
+    top: 550px;
+    left: 500px;
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navbar .container {
+    display: flex;
+}
+
+/* iiiiiiiiiiiiiiiiiiihhhhh */
+.div1 .old_2 {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.asas .container {
+    display: flex;
+
+}
+
+.div2 .old_2 {
+    display: flex;
+    margin-top: 30px;
+    margin-left: 40px;
+
+}
+
+.color {
+    margin: 0 auto;
+}
+
+.clock {
+    border: 2px solid black;
+
+}
+
+.border {
+    border: 2px solid black;
+}
+
+.old_1 {
+    margin-left: 20px;
+}
+
+/* ----------------------aaaaaaaaaaadfwsaf------------------------========== */
+.container .boxs {
+    display: flex;
+    justify-content: space-evenly;
+}
+h3:hover{
+color: red;
+
+}
+h3{
+    border-bottom:  1px solid red ;
+    margin-top: 5px;
+}
+.boxs{
+    margin-top: 100px;
+}
