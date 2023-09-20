@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 1s;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+    padding: 20px 0;
+}
+
+.box1 {
+    text-align: center;
+    align-items: center;
+}
+
+.black {
+    display: flex;
+    justify-content: space-between;
+}
+
+.black:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.block {
+    text-align: center;
+}
+
+form {
+    margin-top: 100px;
+}
+
+form .container {
+    border: 1px solid rgba(172, 172, 231, 0.195);
+    padding: 20px;
+    text-align: center;
+    width: 800px;
+    height: 50vh;
+}
+
+.black12 {
+    text-align: center;
+}
+
+.form input {
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid black;
+    font-size: 20px;
+}
+
+.form input:nth-child(1) {
+    width: 80%;
+    height: 20px;
+    display: block;
+    margin: 20px auto;
+}
+
+.form input:nth-child(2) {
+    width: 50%;
+    height: 20px;
+
+    margin: 20px auto;
+
+}
+
+.form input:nth-child(3) {
+    width: 50%;
+    height: 20px;
+    display: block;
+
+    margin: 20px auto;
+
+}
+
+.form input:nth-child(4) {
+    width: 50%;
+    height: 20px;
+    margin: 20px auto;
+    display: block;
+}
+
+.form input:nth-child(5) {
+    width: 50%;
+    height: 20px;
+    margin: 20px auto;
+}
+
+textarea {
+    font-size: 20px;
+    display: block;
+    margin: 0 auto;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+button {
+    background-color: blue;
+    width: 100px;
+    height: 30px;
+    border-radius: 15px;
+    margin-top: 35px;
+}
+
+.i {
+    display: flex;
+    margin: 100px auto;
+    width: 420px;
+    height: 100px;
+    justify-content: space-between;
+    text-align: center;
+
+
+}
+
+.i i {
+    margin-top: 30px;
+    padding: 30px;
+}
+
+i:hover {
+    transform: scale(2);
+    transition: 1s;
+}
+
+footer {
+    background-color: rgba(239, 236, 236, 0.967);
+    height: 61vh;
+}
+
+.block_01 {
+    background-color: rgba(239, 236, 236, 0.967);
+    width: 30vh;
+    height: 30vh;
+    display: block;
+}
+
+.what {
+    font-size: 50px;
+    margin-top: 10px;
+    background-color: blue;
+    border-radius: 50%;
+    width: 60px;
+    text-align: center;
+}
+
+.what:hover {
+    background-color: chartreuse;
+}
+.what1{
+    margin-top: 40px;
+    background-color: aliceblue;
+    height: 288px;
+}
+.what1 i{
+    margin-top: 140px;
+    margin-left: 20px;
+}
+.what1 img{
+    border-radius: 50%;
+}
+.what1 input{
+    border-radius: 10px;
+    height:30px ;
+}
