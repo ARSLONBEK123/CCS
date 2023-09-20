@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: 1.5s;
+}
+.block{
+    margin: 100px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.box2 {
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    border-radius: 30%;
+    box-shadow: 0 0 30px chocolate;
+
+}
+
+.box2:hover {
+    transform: rotateY(279deg);
+    transition: 0.5s;
+}
+/* 111111111111111 */
+
+.box1 {
+    background-color: black;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    box-shadow: 0 0 30px indigo;
+}
+
+.box1:hover {
+    transform:scale(1.9);
+    transition: 1s;
+}
+/* 222222222222 */
+
+.box3 {
+    width: 200px;
+    background-color: yellow;
+    height: 200px;
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 0 0 30px chartreuse;
+}
+
+.box3:hover {
+    transform: skew(179deg);
+    transition: 1s;
+}
+/* 33333333333 */
+
+.box4 {
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0 0 30px black;
+}
+
+.box4:hover {
+    transform: skewY(179deg);
+    transition: 1s;
+}
+/* 444444444 */
+
+.box5 {
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0 0 30px red;
+}
+
+.box5:hover {
+    transform: rotate3d(1, -1, 1, 102deg);
+    transition: 1s;
+}
+.box6 {
+    background-color: indianred;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    border-radius: 30PX;
+    box-shadow: 0 0 30px yellow ;
+}
+
+.box6:hover {
+    transform: rotate( 179deg);
+    transition: 1s;
+}
